@@ -208,3 +208,26 @@ nav {
   color: var(--white);
   cursor: pointer;
 }
+
+@media (width > 768px) {
+  nav {
+    padding: 2rem 1rem;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav__bar {
+  padding: 0;
+  background-color: transparent;
+}
+
+.nav__logo span {
+  display: flex;
+}
+
+.nav__menu__btn {
+  display: none;
+}
