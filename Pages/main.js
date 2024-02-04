@@ -37,5 +37,5 @@ ScrollReveal().reveal(".container__content p", {
 });
 ScrollReveal().reveal(".socials", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1200,
 });
